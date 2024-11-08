@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.navigation{
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.navigation>a{
+    color: white;
+    text-decoration: none;
+
+}
+
+section{
+    width: 300px;
+    border: 2px solid yellow;
+    border-radius: 12px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+section>h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: red;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+button{
+    display: block;
+    margin: 0 auto;
+    color: black;
+    border-radius: 8px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+/*CAMBIAR DETALLE DEL BOTON AL PASAR EL CURSOR */
+button:hover{
+    background: red;
+}
